@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/recruitment/components/*"],
+      "@images/*": ["src/recruitment/assets/images/*"],
+      "@assets/*": ["src/recruitment/assets/*"],
+      "@screens/*": ["src/recruitment/screens/*"],
+      "@context/*": ["src/recruitment/store/*"],
+      "@utils/*": ["src/recruitment/utils/*"],
+      "@constants/*": ["src/recruitment/constants/*"],
+      "@navigation/*": ["src/navigation/*"],
+      "@styles/*": ["src/recruitment/styles/*"],
+      "@api/*": ["src/recruitment/api/*"],
+      "@teacher/*": ["src/teacher/components/*"],
+      "@teacher/constants/*": ["src/teacher/constants/*"],
+      "@teacher/globals/*": ["src/teacher/globals/*"],
+      "@teacher/theme/*": ["src/teacher/theme/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

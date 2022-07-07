@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825405393324",
+    "project_id": "teacher-app-dotnline",
+    "storage_bucket": "teacher-app-dotnline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825405393324:android:6b906752524ac22b61d209",
+        "android_client_info": {
+          "package_name": "com.recruitmentmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825405393324-oc5k1q3o7shg8727ob5facit3hmj048b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1JGv73M7nsINHQaOj7fPA94KDOWlb1WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825405393324-oc5k1q3o7shg8727ob5facit3hmj048b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

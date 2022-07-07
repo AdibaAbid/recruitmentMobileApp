@@ -1,0 +1,58 @@
+import { ContractSigningScreenConstant } from '@constants/strings';
+
+export const data = [
+  {
+    id: 1,
+    key: 'contractsign',
+    docKey: 'Contract',
+    title: ContractSigningScreenConstant.SignedContract,
+    subTitle: ContractSigningScreenConstant.pdfFormat,
+    subTitle2: ContractSigningScreenConstant.requiredSize,
+    isPDF: true,
+  },
+  {
+    id: 2,
+    key: 'cnicimagefront',
+    docKey: 'CNIC',
+    title: ContractSigningScreenConstant.ProfCNICFront,
+    subTitle: ContractSigningScreenConstant.acceptableFormat,
+    subTitle2: ContractSigningScreenConstant.requiredSize,
+    isPDF: false,
+  },
+  {
+    id: 3,
+    key: 'cnicimageback',
+    docKey: 'CNIC',
+    title: ContractSigningScreenConstant.ProfCNICBack,
+    subTitle: ContractSigningScreenConstant.acceptableFormat,
+    subTitle2: ContractSigningScreenConstant.requiredSize,
+    isPDF: false,
+  },
+  {
+    id: 4,
+    key: 'paymentproof',
+    docKey: 'Proof of Payment',
+    title: ContractSigningScreenConstant.paymentProof,
+    subTitle: ContractSigningScreenConstant.acceptableFormat,
+    subTitle2: ContractSigningScreenConstant.requiredSize,
+    isPDF: false,
+  },
+  {
+    id: 5,
+    key: 'cv',
+    docKey: 'CV',
+    title: ContractSigningScreenConstant.updatedCV,
+    subTitle: ContractSigningScreenConstant.pdfFormat,
+    subTitle2: ContractSigningScreenConstant.requiredSize,
+    isPDF: true,
+  },
+  {
+    id: 6,
+    key: 'degreeimg',
+    docKey: 'Educational Document',
+    title: ContractSigningScreenConstant.educationalDegree,
+    subTitle: ContractSigningScreenConstant.acceptableFormat,
+    subTitle2: ContractSigningScreenConstant.requiredSize,
+    isPDF: false,
+  },
+];

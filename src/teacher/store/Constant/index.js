@@ -1,0 +1,8 @@
+const actionTypes = {
+  USERINFO: 'USERINFO',
+  MODALTOGGLE: 'MODALTOGGLE',
+  MODALHEIGHT: 'MODALHEIGHT',
+  MODALCOMPONENT: 'MODALCOMPONENT',
+};
+
+export default actionTypes;
